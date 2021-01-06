@@ -64,8 +64,8 @@ if __name__ == "__main__":
         "c" : ["a", "b", "d", "e"],
         "d" : ["c"],
         "e" : ["c", "b"],
-        "f" : [],
-        "h" : ["h"]
+        "f" : [],   # isolated node
+        "g" : ["g"] # self pointing node
     }
 
     mygraph = Graph(graph)
